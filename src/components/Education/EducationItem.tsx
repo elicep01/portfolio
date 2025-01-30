@@ -1,12 +1,7 @@
 import React from 'react';
-import { EducationData } from './types';
+import { EducationItemProps } from './types';
 import InstitutionLogo from './InstitutionLogo';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-
-interface EducationItemProps extends EducationData {
-  isExpanded: boolean;
-  onToggle: () => void;
-}
 
 const EducationItem = ({ 
   institution, 
@@ -14,7 +9,7 @@ const EducationItem = ({
   period, 
   specialization, 
   details,
-  isExpanded,
+  isExpanded = true, // Default to expanded
   onToggle
 }: EducationItemProps) => {
   return (
