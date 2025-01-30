@@ -6,7 +6,7 @@ const HeroContent = () => {
   return (
     <div className="text-center md:text-left">
       <h1 className="text-4xl md:text-5xl font-bold mb-4">
-        Hi, I am Elice
+        Hi, I'm Elice
       </h1>
       <p className="text-lg md:text-xl text-gray-600 mb-4 md:mb-6">
         Machine Learning Engineer | AI & Signal Processing Enthusiast
