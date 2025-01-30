@@ -11,7 +11,7 @@ const ContactInfo = () => {
       <div className="flex items-center gap-2 text-gray-600">
         <Mail size={20} />
         <a 
-          href="mailto:epriyadarshi[at]wisc[dot]edu"
+          href="mailto:epriyadarshi@wisc.edu"
           className="hover:text-teal-600 transition-colors"
         >
           epriyadarshi[at]wisc[dot]edu

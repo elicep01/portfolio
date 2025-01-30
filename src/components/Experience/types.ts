@@ -1,7 +1,12 @@
-export interface ExperienceData {
+export interface EducationData {
+  institution: string;
+  degree: string;
   period: string;
-  company: string;
-  title: string;
-  description: string;
-  achievements?: string[];
+  specialization?: string;
+  details: string[];
+}
+
+export interface EducationItemProps extends EducationData {
+  isExpanded?: boolean;
+  onToggle?: () => void;
 }
