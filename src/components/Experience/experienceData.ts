@@ -1,25 +1,49 @@
-import { EducationData } from './types';
+import { ExperienceData } from './types';
 
-export const education: EducationData[] = [
+export const experiences: ExperienceData[] = [
   {
-    institution: 'University of Wisconsin-Madison',
-    degree: "M.S. in Electrical and Computer Engineering",
-    period: 'August 2024 – December 2025',
-    specialization: 'Machine Learning & Signal Processing',
-    details: [
-      'Research: Fine-tuning LLMs, Reinforcement Learning, AI for Reasoning',
-      'Relevant Courses: Matrix Methods in ML, Neural Networks, Digital Image Processing, High-Performance Computing (CUDA)',
-      'Focus Areas: NLP, Reinforcement Learning, and Scalable ML Pipelines'
+    period: 'Sep 2020 – Jul 2024',
+    company: 'Siemens Digital Industries Software',
+    title: 'Software Engineer',
+    description: 'Developed AI/ML-based enterprise applications for sustainability and automation.',
+    achievements: [
+      'Built an NLP-driven chatbot using TAPAS for SQL-based natural language queries',
+      'Created low-code AI tools: PDF Annotation, Process Flow Widgets, Data Visualizations',
+      'Optimized performance & scalability for enterprise software handling high-traffic workloads',
+      'Implemented comprehensive testing strategies using Selenium and Apache JMeter',
+      'Created a Lifecycle Assessment-based recommendation system for sustainable product design'
     ]
   },
   {
-    institution: "Cummins College of Engineering for Women",
-    degree: "B.Tech in Electronics & Telecommunications",
-    period: 'August 2016 – May 2020',
-    details: [
-      'Senior Project: IoT-based environmental monitoring with real-time data visualization',
-      'Leadership: Technical Secretary, AI/ML Project Lead',
-      'Publications: Ocean Color Data Analysis (JIST), Sea Surface Temperature Analysis (Springer)'
+    period: '2024 – Present',
+    company: 'Lee Lab, UW-Madison',
+    title: 'Independent Study Researcher',
+    description: 'Research focus on LLM fine-tuning and Reinforcement Learning for reasoning improvement.',
+    achievements: [
+      'Fine-tuning LLMs & Reinforcement Learning for reasoning improvement',
+      'Developed synthetic dataset augmentation techniques for AI reasoning evaluation'
+    ]
+  },
+  {
+    period: '2019 – 2020',
+    company: 'AICVS, Cummins College',
+    title: 'Head of AI/ML Projects',
+    description: 'Led AI/ML project initiatives and mentored student teams.',
+    achievements: [
+      'Led 25+ student teams in AI/ML & Computer Vision projects',
+      'Organized workshops on Deep Learning, NLP, and Reinforcement Learning',
+      'Developed partnerships with local startups for student internship opportunities'
+    ]
+  },
+  {
+    period: 'May 2019 - Jul 2019',
+    company: 'TATA AutoComp Systems',
+    title: 'Summer Intern',
+    description: 'Worked on Advanced Driver Assistance Systems (ADAS) for electric vehicles.',
+    achievements: [
+      'Developed CNN-based object detection models for real-time road safety features',
+      'Designed real-time Android application architecture with Kafka for ADAS environment',
+      'Improved algorithm performance by 15% through optimization'
     ]
   }
 ];
