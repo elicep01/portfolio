@@ -7,11 +7,11 @@ interface InstitutionLogoProps {
 const InstitutionLogo = ({ institution }: InstitutionLogoProps) => {
   if (institution.includes('Wisconsin-Madison')) {
     return (
-      <div className="mb-2">
+      <div className="mb-2 h-12 w-48 flex items-center">
         <img 
-          src="/uwmad.jpeg" 
+          src="/uwmad.jpeg"
           alt="University of Wisconsin-Madison"
-          className="h-10 w-auto object-contain"
+          className="h-full w-full object-contain object-left"
         />
       </div>
     );
@@ -19,11 +19,11 @@ const InstitutionLogo = ({ institution }: InstitutionLogoProps) => {
   
   if (institution.includes('Cummins College')) {
     return (
-      <div className="mb-2">
+      <div className="mb-2 h-12 w-48 flex items-center">
         <img 
-          src="/ccoew.png" 
-          alt="Cummins College of Engineering"
-          className="h-10 w-auto object-contain"
+          src="/ccoew.png"
+          alt="Cummins College of Engineering for Women"
+          className="h-8 w-auto object-contain"
         />
       </div>
     );
