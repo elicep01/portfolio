@@ -1,6 +1,17 @@
 import { ExperienceData } from './types';
 
 export const experiences: ExperienceData[] = [
+
+  {
+    period: '2024 – Present',
+    company: 'Lee Lab, UW-Madison',
+    title: 'Independent Study Researcher',
+    description: 'Research focus on LLM fine-tuning and Reinforcement Learning for reasoning improvement.',
+    achievements: [
+      'Fine-tuning LLMs & Reinforcement Learning for reasoning improvement',
+      'Developed synthetic dataset augmentation techniques for AI reasoning evaluation'
+    ]
+  },
   {
     period: 'Sep 2020 – Jul 2024',
     company: 'Siemens Digital Industries Software',
@@ -12,16 +23,6 @@ export const experiences: ExperienceData[] = [
       'Optimized performance & scalability for enterprise software handling high-traffic workloads',
       'Implemented comprehensive testing strategies using Selenium and Apache JMeter',
       'Created a Lifecycle Assessment-based recommendation system for sustainable product design'
-    ]
-  },
-  {
-    period: '2024 – Present',
-    company: 'Lee Lab, UW-Madison',
-    title: 'Independent Study Researcher',
-    description: 'Research focus on LLM fine-tuning and Reinforcement Learning for reasoning improvement.',
-    achievements: [
-      'Fine-tuning LLMs & Reinforcement Learning for reasoning improvement',
-      'Developed synthetic dataset augmentation techniques for AI reasoning evaluation'
     ]
   },
   {
