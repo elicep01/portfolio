@@ -6,15 +6,15 @@ export const projects: ProjectData[] = [
     description: 'Open-source ML education platform integrating LLMs with traditional ML frameworks. Features automated model evaluation, custom metrics tracking, and distributed training capabilities.',
     technologies: ['PyTorch', 'TensorFlow', 'LangChain', 'React.js'],
     demoUrl: 'https://bridgeml.fun/',
-    codeUrl: '#'
+    codeUrl: 'https://github.com/elicep01/BridgeML'
   },
   {
-    title: 'Project Strawberry',
-    description: 'Research project on fine-tuning open-source LLMs using Chain of Thought (CoT) reasoning. Developed RL-based process reward models achieving 85.2% accuracy.',
-    technologies: ['PyTorch', 'Hugging Face', 'RLHF', 'LangChain'],
-    demoUrl: '#',
-    codeUrl: '#'
-  },
+    "title": "VersaPRM",
+    "description": "Developed a multi-domain Process Reward Model (PRM) to enhance reasoning across Law, Biology, and Philosophy. Fine-tuned PRMs with Chain of Thought (CoT) reasoning, achieving a 7.9% performance gain via Monte Carlo Tree Search.",
+    "technologies": ["PyTorch", "Hugging Face", "RLHF", "Monte Carlo Tree Search"],
+    "demoUrl": "https://huggingface.co/collections/UW-Madison-Lee-Lab/versaprm-67a7eb34049b2a1bd3055f6e",
+    "codeUrl": "https://github.com/UW-Madison-Lee-Lab/VersaPRM"
+  },   
   {
     title: 'SQLPilot.ai (Contributor)',
     description: 'AI-powered SQL editor using natural language for query generation. Features PostgreSQL/MySQL support, OpenAI integration, and RAG implementation.',

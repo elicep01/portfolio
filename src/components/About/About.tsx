@@ -18,7 +18,10 @@ const About = () => {
                 My focus areas include Large Language Models (LLMs), Reinforcement Learning, Natural Language Processing (NLP), Deep Learning, and AI for real-world applications. I have worked on fine-tuning LLMs, developing process reward models, and optimizing ML pipelines.
               </p>
               <p className="text-gray-600">
-                Currently, I am conducting independent research on fine-tuning open-source LLMs and contributing to open-source ML projects.
+                I have contributed to VersaPRM, a multi-domain Process Reward Model (PRM) designed to enhance reasoning across Law, Biology, and Philosophy using Chain of Thought (CoT) reasoning and Monte Carlo Tree Search.
+              </p>
+              <p>
+                Currently, I am working on BridgeML, an open-source ML knowledge repository, to bridge academic research with industry applications.
               </p>
             </div>
           </div>
